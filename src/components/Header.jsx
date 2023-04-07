@@ -1,9 +1,10 @@
 import React from "react";
+import TipsAndUpdatesIcon from '@mui/icons-material/TipsAndUpdates';
 
 function Header(){
     return (
         <header>
-             <h1>Note Taker</h1>
+             <h1> <TipsAndUpdatesIcon /> Note Taker</h1>
         </header>
     )
 }
